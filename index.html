@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="blue_box" id="topbar"></div>
+
+    <div class="logo center">
+        <img src="img/logo.png" alt="Logo essuie-tout">
+    </div>
+
+    <nav class="center">
+        <a class="bold" href="#">Essuie-tout</a>
+        <a href="#">Rouleaux</a>
+        <a href="#">Torchons</a>
+        <a href="#hero">Éponges</a>
+        <a href="#produits">Produits</a>
+    </nav>
+
+    <section id="hero" class="center">
+        <div class="hero_layer"></div>
+        <div class="hero_content">
+            <img src="img/coin-gauche.png" alt="encadrement texte" class="coin_gauche">
+            <h1>On <span style="color: #061d4b;">essuie</span> tout !</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, sequi recusandae! Quod, numquam optio deserunt architecto autem distinctio odit quaerat, fugit molestiae delectus excepturi ipsum. Sequi, exercitationem molestias. Dolor, voluptatum.</p>
+            <p>Tous ces éléments sont fabriqués et pêché en France!</p>
+            <div class="hero_button">
+                <a href="#">Nos produits</a>
+                <a href="#">Nos engagements</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="produits" class="center">
+        
+        <p class="title_text">Nos Produits</p>    
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="products_box">
+            <div>
+                <a href="#">
+                    <img src="img/DSC_4476-2.jpg" alt="Torchons">
+                    <p class="product_title">Torchons</p>
+                </a>
+                <a class="custom_btn">Je découvre</a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/essuie-tout.jpg" alt="Essuie tout">
+                    <p class="product_title">Essuie tout</p>
+                </a>
+                <a class="custom_btn" href="#">Je découvre</a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/DSC_4423.jpg" alt="Porte essuie-tout">
+                    <p class="product_title">Portes essuie-tout</p>
+                </a>
+                <a class="custom_btn" href="#">Je découvre</a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/eponges.jpg" alt="eponges">
+                    <p class="product_title">Eponges</p>
+                </a>
+                <a class="custom_btn" href="#">Je découvre</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <video class="video" src="video/brunellocucinelli.mp4" muted autoplay loop playsinline></video>
+        <div class="video_contenu">
+            <h2>La nouvelle collection</h2>
+        </div>
+    </section>
+
+    <!-- 
+        Exemple flexbox
+    
+    <section id="flexbox">
+        <div class="box1 box">1</div>
+        <div class="box2 box">2</div>
+        <div class="box3 box">3</div>
+        <div class="box4 box">4</div>
+    </section>
+
+    -->
+
+    <!-- EXEMPLE POSITIONNEMENT 
+    <section id="positionnement">
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+        <div class="box3 box"></div>
+        <div class="box4 box"></div>
+    </section>
+    -->
+
+    <a href="#topbar" class="custom_btn back_to_top">Retour en haut</a>
+
+
+
+    <!-- <div class="boite"></div> -->
+
+    <div id="contact" style='margin-bottom: 500px'>
+        <div class="contact_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97867.497610262!2d3.9186790636356585!3d43.58472433985177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6a5d272555391%3A0xe4780ccf0462930f!2sMontpellier%20Ynov%20Campus!5e0!3m2!1sfr!2sfr!4v1717427674425!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact_form">
+            <!-- FORMULAIRE HTML -->
+            <form action="#" method="POST" class="center">
+                <div>
+                    <label for="nom">Votre nom</label>
+                    <input type="password" name="nom" id="nom" placeholder="Saisir votre nom">
+                </div>
+                <div>
+                    <label for="email">Votre Email</label>
+                    <input type="email" name="email" id="email" placeholder="votre@email.fr">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
